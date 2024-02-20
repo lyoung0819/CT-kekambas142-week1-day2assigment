@@ -1,0 +1,36 @@
+
+/*  */
+* {
+    text-align: center;
+}
+
+
+
+.top-center {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* FOOTER LINKS */
+a:link {
+    color:aqua;
+}
+
+a:visited {
+    color:red;
+}
+
+a:hover {
+    color: white;
+    background-color:blue;
+}
+
+a:active {
+    color:aquamarine;
+    background-color: blue;
+}
