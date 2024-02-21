@@ -1,74 +1,138 @@
 
-/*  PAGE LAYOUT */
+/*  Page Layout & Design */
+
 * {
-    margin-left: auto;
-    margin-right: auto;
+    color: gray;
 }
 
 header {
     margin-bottom: 10px;
     text-align: center;
 }
-
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
-
 h2 {
-    padding-left: 5px;
-    margin-top: 0px;
+    text-align: left;
+    color:black;
+    margin-top: 5px;
     margin-left: 5px;
 }
 
+input {
+    text-align: left;
+    width: 450px;
+    height: 30px;
+}
+
+label {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+form {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.links {
+    color: blue;
+    text-decoration: none;
+}
 
 /* Sign In */
 .sign-in-box {
-    display: block;
-    border: .3px solid grey;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    border: .3px solid lightgrey;
+    border-radius: .5%;
     width: 450px;
+    height: 300px;
     padding-left: 20px;
     padding-right: 20px;
 }
 
 #continue-button {
-    border: .1px solid grey;
+    border: .3px solid grey;
+    border-radius: .5%;
+    color: black;
     width: 450px;
     height: 30px;
     background-color: orange;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #create-account {
     background-color: lightgray;
-    border: .1px solid grey;
+    border-radius: .5%;
+    color: black;
+    border: .3px solid grey;
     width: 450px;
     height: 30px;
 }
 
+
+#password-right {
+    position: relative;
+    text-align: right;
+}
+
+
+
+
 /* Below sign in */
 
 .below-signin {
-    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 450px;
     padding: 5px;
     text-align: center;
 }
 
+
+#bottomline {
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+}
+
+
+.footer-links {
+    font-size: small;
+    display: flex;
+    width: 250px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
 /* FOOTER LINKS */
 a:link {
-    color:aqua;
+    color:blue;
+    text-decoration: none;
 }
 
 a:visited {
-    color:red;
+    color: blue;
+    text-decoration: none;
 }
 
 a:hover {
     color: white;
     background-color:blue;
+    text-decoration: none;
 }
 
 a:active {
     color:aquamarine;
     background-color: blue;
+    text-decoration: none;
 }

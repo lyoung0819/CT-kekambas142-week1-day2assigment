@@ -7,45 +7,47 @@
     <link rel="stylesheet" href="./CSS/main.css">
 </head>
 
+
+
 <header>
     <section class="top-center">
         <img src="./logo-icon.jpg" id="logo">
     </section>
-
 </header>
-
-<!-- -->
 
 <body>
     <section class="sign-in-box">
-        <h2>Sign In</h2>
         <div>
-            <p>Email(phone or mobile accounts)</p>
+            <h2>Sign In</h2>
+            <form action="signin.database">
+            <label for="email">Email(phone or mobile accounts)</label> &nbsp;
             <input type="text" placeholder="Enter Email"> 
-            <p>Password</p>
-            <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GH3NM2YWEFEL2CQ4" target="_blank"  style="color: blue;">Forgot Password</a>
-            <input type="text" placeholder="Enter Password">
+            <label for="password" id="password-right">Password</label> &nbsp;
+            <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GH3NM2YWEFEL2CQ4" target="_blank" class="links">Forgot Password</a>
+            <input type="text" placeholder="Enter Password"> 
             <button type="submit" id="continue-button">Continue</button>
-            <a href="https://www.amazon.com/gp/help/customer/account-issues" target="_blank"  style="color: blue;">Need Help?</a>
+            <a href="https://www.amazon.com/gp/help/customer/account-issues" target="_blank" class="links">Need Help?</a>
+            </form>
         </div>
-        <!-- -->
         
     </section>
+
     <section class="below-signin">
         <div>
             <p>New To Amazon?</p>
         </div>
-        <!-- -->
+   
         <div>
             <button type="submit" href="https://www.amazon.com/ref=nav_logo" id="create-account">Create Your Amazon Account</button>
         </div>
     </section>
+
+    
+    <hr id="bottomline">
 </body>
 
-<!-- -->
-
 <footer>
-    <section class="top-center">
+    <section>
         <div class="footer-links">
             <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GLSBYFE9MGKKQXXM" target="_blank">Conditions of user</a>
             <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ" target="_blank">Privacy Policy</a>
