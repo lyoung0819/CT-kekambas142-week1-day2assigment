@@ -1,20 +1,58 @@
 
-/*  */
+/*  PAGE LAYOUT */
 * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-
-
-.top-center {
+footer {
+    margin-top: 100px;
     text-align: center;
 }
 
+h2 {
+    padding-left: 5px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
 
 
+/* Sign In */
+.sign-in-box {
+    display: block;
+    border: .3px solid grey;
+    width: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+#continue-button {
+    border: .1px solid grey;
+    width: 450px;
+    height: 30px;
+    background-color: orange;
+}
 
+#create-account {
+    background-color: lightgray;
+    border: .1px solid grey;
+    width: 450px;
+    height: 30px;
+}
 
+/* Below sign in */
+
+.below-signin {
+    display: block;
+    width: 450px;
+    padding: 5px;
+    text-align: center;
+}
 
 /* FOOTER LINKS */
 a:link {
